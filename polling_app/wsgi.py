@@ -1,5 +1,5 @@
 """
-WSGI config for wikipedia_lite project.
+WSGI config for polling_app project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'wikipedia_lite.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'polling_app.settings')
 
 application = get_wsgi_application()
